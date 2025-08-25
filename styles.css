@@ -391,7 +391,7 @@ body {
     }
     
     .hero-container {
-        padding: var(--spacing-md);
+        padding: var(--gutter-mobile);
     }
     
     .hero-content {
@@ -410,7 +410,7 @@ body {
         max-width: 120px;
         object-fit: contain;
         object-position: left center;
-        z-index: 10;
+        z-index: 15;
     }
     
     .hero h1 {
@@ -435,7 +435,7 @@ body {
 
 @media (max-width: 480px) {
     .hero-container {
-        padding: var(--spacing-sm);
+        padding: var(--gutter-mobile);
     }
     
     .hero-text {
@@ -465,7 +465,7 @@ body {
 /* Ensure no horizontal overflow */
 @media (max-width: 320px) {
     .hero-container {
-        padding: var(--spacing-sm);
+        padding: var(--gutter-mobile);
     }
     
     .hero-logo .logo-img {
