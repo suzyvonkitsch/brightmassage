@@ -772,20 +772,21 @@ body {
     .card-image {
         aspect-ratio: 16/9;
         height: 200px;
+        border-radius: 16px;
     }
     
     .card-content {
         background: white;
-        padding: 20px;
+        padding: var(--gutter-mobile) 20px 20px 20px;
     }
     
     .card-header {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
         cursor: pointer;
-        padding: var(--spacing-xs) 0;
-        margin-bottom: 0;
+        padding: 0;
+        margin-bottom: 12px;
+        gap: 8px;
     }
     
     .card-header:focus {
@@ -794,16 +795,33 @@ body {
         border-radius: 4px;
     }
     
+    .card-title-row {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        gap: 12px;
+    }
+    
     .card-title {
-        font-size: 20px;
+        font-size: clamp(22px, 5vw, 28px);
+        font-weight: 700;
+        line-height: 1.2;
         color: var(--color-text-dark);
         flex: 1;
+        word-break: normal;
+        hyphens: none;
+        text-wrap: balance;
     }
     
     .card-meta {
         color: var(--color-text-medium);
-        margin: 0 var(--spacing-sm);
         font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        white-space: nowrap;
+        margin: 0;
     }
     
     .price {
@@ -841,13 +859,27 @@ body {
     }
 }
 
+@media (max-width: 480px) {
+    .card-content {
+        padding: var(--gutter-mobile) 16px 16px 16px;
+    }
+    
+    .card-title {
+        font-size: clamp(20px, 4.5vw, 24px);
+    }
+    
+    .card-image {
+        height: 180px;
+    }
+}
+
 @media (max-width: 320px) {
     .treatments {
         padding: 40px 0;
     }
     
     .card-title {
-        font-size: 18px;
+        font-size: clamp(18px, 4vw, 22px);
     }
     
     .card-meta {
@@ -859,11 +891,11 @@ body {
     }
     
     .card-content {
-        padding: 16px;
+        padding: var(--gutter-mobile) 12px 12px 12px;
     }
     
     .card-image {
-        height: 180px;
+        height: 160px;
     }
 }
 
