@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Massage Therapy</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <!-- Navigation -->
+            <nav class="nav" role="navigation" aria-label="Main navigation">
+                <!-- Mobile hamburger button -->
+                <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                
+                <!-- Navigation links -->
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#treatments" class="nav-link">Treatments</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                    <li><a href="#faqs" class="nav-link">FAQs</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-container">
+                <!-- Hero Content -->
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="hero-logo">
+                            <img src="assets/logo-white.png" alt="Bright Massage Therapy" class="logo-img">
+                        </div>
+                        <h1>Relaxing massage in Didcot</h1>
+                        <p>Personalised Swedish massage to ease aches, improve mobility and help you unwind.</p>
+                        <a href="#contact" class="cta-button">Book or enquire</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Curved Bottom Edge -->
+            <div class="hero-wave">
+                <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0 C150,100 350,0 500,50 C650,100 850,0 1200,50 L1200,120 L0,120 Z" fill="var(--color-off-white)"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Treatments & Prices Section -->
+        <section class="treatments" id="treatments">
+            <div class="container">
+                <div class="treatments-intro fade-in">
+                    <h2>Treatments & prices</h2>
+                    <p>Personalised Swedish massage tailored to what you need today—designed to improve circulation, ease muscular aches, support mobility and help you deeply relax.</p>
+                </div>
+
+                <div class="treatments-grid">
+                    <!-- Treatment Card 1 -->
+                    <div class="treatment-card scale-in">
+                        <div class="card-image">
+                            <img src="assets/full-body-90.jpg" alt="Relaxing full body massage" loading="eager">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header" tabindex="0" role="button" aria-expanded="false" aria-controls="card-content-1">
+                                <h3 class="card-title">Ultimate full body, incl. head & face</h3>
+                                <div class="card-meta">
+                                    <span class="duration">90 mins</span>
+                                    <span class="separator">•</span>
+                                    <span class="price">£55</span>
+                                </div>
+                                <button class="expand-chevron" aria-hidden="true">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="card-details" id="card-content-1">
+                                <p class="card-description">Head-to-toe session for deep relaxation.</p>
+                                <a href="#contact" class="book-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Treatment Card 2 -->
+                    <div class="treatment-card scale-in">
+                        <div class="card-image">
+                            <img src="assets/full-body-60.jpg" alt="Swedish massage session" loading="lazy">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header" tabindex="0" role="button" aria-expanded="false" aria-controls="card-content-2">
+                                <h3 class="card-title">Full body Swedish</h3>
+                                <div class="card-meta">
+                                    <span class="duration">60 mins</span>
+                                    <span class="separator">•</span>
+                                    <span class="price">£45</span>
+                                </div>
+                                <button class="expand-chevron" aria-hidden="true">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="card-details" id="card-content-2">
+                                <p class="card-description">A complete, calming massage that releases general tension.</p>
+                                <a href="#contact" class="book-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Treatment Card 3 -->
+                    <div class="treatment-card scale-in">
+                        <div class="card-image">
+                            <img src="assets/back-neck-shoulders.jpg" alt="Back and shoulder massage" loading="lazy">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header" tabindex="0" role="button" aria-expanded="false" aria-controls="card-content-3">
+                                <h3 class="card-title">Back, neck & shoulders</h3>
+                                <div class="card-meta">
+                                    <span class="duration">40 mins</span>
+                                    <span class="separator">•</span>
+                                    <span class="price">£30</span>
+                                </div>
+                                <button class="expand-chevron" aria-hidden="true">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="card-details" id="card-content-3">
+                                <p class="card-description">Focused work ideal after long hours at a desk or driving.</p>
+                                <a href="#contact" class="book-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Treatment Card 4 -->
+                    <div class="treatment-card scale-in">
+                        <div class="card-image">
+                            <img src="assets/head-face-neck.jpg" alt="Head and face massage" loading="lazy">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header" tabindex="0" role="button" aria-expanded="false" aria-controls="card-content-4">
+                                <h3 class="card-title">Head, face, neck & shoulders</h3>
+                                <div class="card-meta">
+                                    <span class="duration">30 mins</span>
+                                    <span class="separator">•</span>
+                                    <span class="price">£20</span>
+                                </div>
+                                <button class="expand-chevron" aria-hidden="true">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="card-details" id="card-content-4">
+                                <p class="card-description">Soothing and deeply relaxing; helpful for tension and sinus pressure.</p>
+                                <a href="#contact" class="book-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-card">
+                    <!-- Left Container: Image -->
+                    <div class="image-container slide-in-left">
+                        <img src="assets/Annie.jpeg" alt="Annie, massage therapist at Bright Massage Therapy" loading="lazy">
+                    </div>
+                    
+                    <!-- Right Container: Text -->
+                    <div class="text-container slide-in-right">
+                        <div class="eyebrow-label">About Me</div>
+                        <h2>Hi, I'm Annie!</h2>
+                        <div class="text-content">
+                            <p>I'm a qualified massage therapist specialising in Swedish massage. My approach is simple: every treatment is tailored to you. Whether you're looking to ease tight shoulders, improve circulation or simply switch off for an hour, I take the time to understand your needs before we begin.</p>
+                            
+                            <p>Swedish massage is gentle but effective, and my ethos is to create a calm, safe space where you can relax, restore and feel looked after. Many clients come to me for support with stress, sleep and mobility, and leave feeling lighter, more comfortable in their body, and more at ease. You're in safe hands — this is your time to unwind.</p>
+                        </div>
+                        <a href="#contact" class="cta-button">Book your massage</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Client Reviews Section -->
+        <section class="reviews" id="reviews">
+            <div class="reviews-header-inline">
+                <h2>What clients say</h2>
+                <button class="carousel-pause-play-btn" aria-label="Pause testimonials autoplay" aria-pressed="false" title="Pause autoplay">
+                    <svg class="play-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" style="display: none;">
+                        <path d="M3 2V14L13 8L3 2Z" fill="currentColor"/>
+                    </svg>
+                    <svg class="pause-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <rect x="4" y="2" width="2" height="12" fill="currentColor"/>
+                        <rect x="10" y="2" width="2" height="12" fill="currentColor"/>
+                    </svg>
+                    <span class="sr-only">Pause</span>
+                </button>
+            </div>
+            <div class="testimonials-swiper">
+                <div class="swiper-wrapper" aria-live="off">
+                    <!-- Review Card 1 -->
+                    <div class="swiper-slide">
+                        <div class="review-card" tabindex="0">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <div class="quote-icon">"</div>
+                            <p class="review-text">Annie made me feel quickly at ease and tailored a massage routine to target my personal areas of aches and pains. Great massage—soothing but also worked on the problem areas. I left feeling relaxed.</p>
+                            <p class="review-author">Leigh Anne S.</p>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 2 -->
+                    <div class="swiper-slide">
+                        <div class="review-card" tabindex="0">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <div class="quote-icon">"</div>
+                            <p class="review-text">I wouldn't hesitate to recommend Annie. She has a really calming and reassuring presence, and her massage room is the perfect setting to unwind. My full body massage did me so much good—looking forward to visiting again!</p>
+                            <p class="review-author">Eden Silver-Myer</p>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 3 -->
+                    <div class="swiper-slide">
+                        <div class="review-card" tabindex="0">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <div class="quote-icon">"</div>
+                            <p class="review-text">Amazing massage given by Annie. Very reassuring and she puts you at ease. I suffer with back pain and already my back feels a lot better. Looking forward to visiting again.</p>
+                            <p class="review-author">Chelsey D.</p>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 4 -->
+                    <div class="swiper-slide">
+                        <div class="review-card" tabindex="0">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <div class="quote-icon">"</div>
+                            <p class="review-text">Annie's studio is a lovely oasis of calm tucked away in Didcot with relaxing ambient music and soft natural light. I felt restored and peaceful after my full body massage. Booking was easy thanks to Annie's friendly manner and excellent communication.</p>
+                            <p class="review-author">C. Greenwood</p>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 5 -->
+                    <div class="swiper-slide">
+                        <div class="review-card" tabindex="0">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <div class="quote-icon">"</div>
+                            <p class="review-text">Annie was so welcoming and skilled. It was my first back, shoulder and neck massage and she explained everything beforehand. I enjoyed every minute.</p>
+                            <p class="review-author">Eileen N.</p>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 6 -->
+                    <div class="swiper-slide">
+                        <div class="review-card" tabindex="0">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <div class="quote-icon">"</div>
+                            <p class="review-text">I had a 90-min massage with Annie—she was so kind and welcoming. The massage was wonderful and I left feeling much more relaxed and stress-free. Thank you, Annie!</p>
+                            <p class="review-author">Kelina M.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                <div class="contact-card">
+                    <!-- Left Column: Text -->
+                    <div class="contact-text">
+                        <h2>Get in Touch</h2>
+                        <p>I would love to hear from you. Please drop me an email or text and I will get back to you within 24 hours.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <svg class="contact-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M2 3C2 2.45 2.45 2 3 2H5.15C5.65 2 6.1 2.35 6.2 2.85L7.5 9.5C7.6 10 7.35 10.5 6.9 10.7L5 11.6C6.6 14.9 9.1 17.4 12.4 19L13.3 17.1C13.5 16.65 14 16.4 14.5 16.5L17.15 17.8C17.65 17.9 18 18.35 18 18.85V21C18 21.55 17.55 22 17 22C8.7 22 2 15.3 2 7V3Z" fill="currentColor"/>
+                                </svg>
+                                <a href="tel:07788645989" class="contact-link">07788 645989</a>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <svg class="contact-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M2.5 5C2.5 4.17 3.17 3.5 4 3.5H16C16.83 3.5 17.5 4.17 17.5 5V15C17.5 15.83 16.83 16.5 16 16.5H4C3.17 16.5 2.5 15.83 2.5 15V5ZM4 5.75L10 9.25L16 5.75V5L10 8.5L4 5V5.75Z" fill="currentColor"/>
+                                </svg>
+                                <a href="mailto:hello@brightmassagetherapy.co.uk" class="contact-link">hello@brightmassagetherapy.co.uk</a>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <svg class="contact-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M10 2C7.24 2 5 4.24 5 7C5 11.25 10 18 10 18S15 11.25 15 7C15 4.24 12.76 2 10 2ZM10 9C8.9 9 8 8.1 8 7S8.9 5 10 5 12 5.9 12 7 11.1 9 10 9Z" fill="currentColor"/>
+                                </svg>
+                                <span class="contact-link">Didcot, OX11 8EQ</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Column: Contact Form -->
+                    <div class="contact-form-column">
+                        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form" id="contact-form" novalidate>
+                            <!-- Hidden inputs for Netlify -->
+                            <input type="hidden" name="form-name" value="contact">
+                            <input type="hidden" name="bot-field">
+                            
+                            <!-- Name and Email Row -->
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" id="name" name="name" class="form-field" required aria-describedby="name-error" aria-invalid="false">
+                                    <span class="form-field__error" id="name-error" aria-live="polite"></span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" id="email" name="email" class="form-field" required aria-describedby="email-error" aria-invalid="false">
+                                    <span class="form-field__error" id="email-error" aria-live="polite"></span>
+                                </div>
+                            </div>
+                            
+                            <!-- Phone Field (Full Width) -->
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input type="tel" id="phone" name="phone" class="form-field" aria-describedby="phone-error" aria-invalid="false">
+                                <span class="form-field__error" id="phone-error" aria-live="polite"></span>
+                            </div>
+                            
+                            <!-- Message Field (Full Width) -->
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-field" rows="5" required aria-describedby="message-error" aria-invalid="false"></textarea>
+                                <span class="form-field__error" id="message-error" aria-live="polite"></span>
+                            </div>
+                            
+                            <!-- Consent and Submit Row -->
+                            <div class="form-bottom">
+                                <div class="form-group checkbox-group">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" id="consent" name="consent" class="form-checkbox" required aria-describedby="consent-error" aria-invalid="false">
+                                        <span class="checkbox-custom"></span>
+                                        <span class="checkbox-text">I consent to you storing and using my information to contact me about my enquiry.</span>
+                                    </label>
+                                    <span class="form-field__error" id="consent-error" aria-live="polite"></span>
+                                </div>
+                                
+                                <!-- Submit Button -->
+                                <button type="submit" class="submit-btn">
+                                    <span class="btn-text">Send message</span>
+                                    <span class="btn-loading" style="display: none;">Sending...</span>
+                                </button>
+                            </div>
+                        </form>
+                        
+                        <!-- Success Message -->
+                        <div class="success-message" id="success-message" style="display: none;">
+                            <h3>Thanks for getting in touch</h3>
+                            <p>I'll get back to you within 24 hours.</p>
+                            <a href="/" class="back-home-btn">Back to home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faqs" id="faqs">
+            <div class="container">
+                <div class="faqs-header">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Find quick answers about treatments, benefits and aftercare.</p>
+                </div>
+                
+                <div class="accordion">
+                    <!-- FAQ Item 1 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" tabindex="0" role="button" aria-expanded="false" aria-controls="faq-content-1">
+                            <h3 class="accordion-question">What types of massage do you offer?</h3>
+                            <span class="accordion-icon" aria-hidden="true">+</span>
+                        </div>
+                        <div class="accordion-content" id="faq-content-1">
+                            <div class="accordion-answer">
+                                <p>I specialise in Swedish massage, tailored to your needs — from full body relaxation to focused work on the back, neck, or shoulders.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" tabindex="0" role="button" aria-expanded="false" aria-controls="faq-content-2">
+                            <h3 class="accordion-question">How long are the treatments and how much do they cost?</h3>
+                            <span class="accordion-icon" aria-hidden="true">+</span>
+                        </div>
+                        <div class="accordion-content" id="faq-content-2">
+                            <div class="accordion-answer">
+                                <p>Treatments range from 30 minutes (£20) to 90 minutes (£55). You can choose the length that best suits your needs.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" tabindex="0" role="button" aria-expanded="false" aria-controls="faq-content-3">
+                            <h3 class="accordion-question">What are the benefits of Swedish massage?</h3>
+                            <span class="accordion-icon" aria-hidden="true">+</span>
+                        </div>
+                        <div class="accordion-content" id="faq-content-3">
+                            <div class="accordion-answer">
+                                <p>It helps improve circulation, ease tight muscles, support mobility, reduce stress, and promote deep relaxation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" tabindex="0" role="button" aria-expanded="false" aria-controls="faq-content-4">
+                            <h3 class="accordion-question">What should I expect in my first session?</h3>
+                            <span class="accordion-icon" aria-hidden="true">+</span>
+                        </div>
+                        <div class="accordion-content" id="faq-content-4">
+                            <div class="accordion-answer">
+                                <p>We'll start with a short consultation to understand your needs, then I'll tailor the massage to focus on the areas that matter most to you.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" tabindex="0" role="button" aria-expanded="false" aria-controls="faq-content-5">
+                            <h3 class="accordion-question">Do I need to prepare anything before my massage?</h3>
+                            <span class="accordion-icon" aria-hidden="true">+</span>
+                        </div>
+                        <div class="accordion-content" id="faq-content-5">
+                            <div class="accordion-answer">
+                                <p>No preparation needed — just wear comfortable clothing. Everything else will be provided.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 6 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" tabindex="0" role="button" aria-expanded="false" aria-controls="faq-content-6">
+                            <h3 class="accordion-question">What should I do after my massage?</h3>
+                            <span class="accordion-icon" aria-hidden="true">+</span>
+                        </div>
+                        <div class="accordion-content" id="faq-content-6">
+                            <div class="accordion-answer">
+                                <p>Drink plenty of water, take time to rest, and avoid strenuous activity to allow your body to fully benefit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 7 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" tabindex="0" role="button" aria-expanded="false" aria-controls="faq-content-7">
+                            <h3 class="accordion-question">Is massage safe if I have a health condition?</h3>
+                            <span class="accordion-icon" aria-hidden="true">+</span>
+                        </div>
+                        <div class="accordion-content" id="faq-content-7">
+                            <div class="accordion-answer">
+                                <p>Massage is generally safe, but please let me know if you have any medical conditions, injuries, or are pregnant so I can adapt the treatment.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 8 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" tabindex="0" role="button" aria-expanded="false" aria-controls="faq-content-8">
+                            <h3 class="accordion-question">How do I book a treatment?</h3>
+                            <span class="accordion-icon" aria-hidden="true">+</span>
+                        </div>
+                        <div class="accordion-content" id="faq-content-8">
+                            <div class="accordion-answer">
+                                <p>Simply use the "Book now" button on this website, or contact me directly by phone or email.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        // Hamburger menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger');
+            const navList = document.querySelector('.nav-list');
+            
+            if (hamburger && navList) {
+                hamburger.addEventListener('click', function() {
+                    const isOpen = navList.classList.contains('open');
+                    
+                    if (isOpen) {
+                        navList.classList.remove('open');
+                        hamburger.setAttribute('aria-expanded', 'false');
+                    } else {
+                        navList.classList.add('open');
+                        hamburger.setAttribute('aria-expanded', 'true');
+                    }
+                });
+                
+                // Close menu when clicking outside
+                document.addEventListener('click', function(event) {
+                    if (!hamburger.contains(event.target) && !navList.contains(event.target)) {
+                        navList.classList.remove('open');
+                        hamburger.setAttribute('aria-expanded', 'false');
+                    }
+                });
+                
+                // Close menu when pressing escape
+                document.addEventListener('keydown', function(event) {
+                    if (event.key === 'Escape' && navList.classList.contains('open')) {
+                        navList.classList.remove('open');
+                        hamburger.setAttribute('aria-expanded', 'false');
+                    }
+                });
+            }
+
+            // Mobile treatment card collapsible functionality
+            const cardHeaders = document.querySelectorAll('.card-header');
+            
+            function toggleCard(header) {
+                const isExpanded = header.getAttribute('aria-expanded') === 'true';
+                const cardDetails = document.getElementById(header.getAttribute('aria-controls'));
+                
+                // Close all other cards first (only one open at a time)
+                cardHeaders.forEach(otherHeader => {
+                    if (otherHeader !== header) {
+                        const otherDetails = document.getElementById(otherHeader.getAttribute('aria-controls'));
+                        otherHeader.setAttribute('aria-expanded', 'false');
+                        if (otherDetails) {
+                            otherDetails.classList.remove('expanded');
+                        }
+                    }
+                });
+                
+                // Toggle current card
+                if (isExpanded) {
+                    header.setAttribute('aria-expanded', 'false');
+                    cardDetails.classList.remove('expanded');
+                } else {
+                    header.setAttribute('aria-expanded', 'true');
+                    cardDetails.classList.add('expanded');
+                }
+            }
+            
+            cardHeaders.forEach(header => {
+                header.addEventListener('click', function() {
+                    if (window.innerWidth <= 767) {
+                        toggleCard(header);
+                    }
+                });
+                
+                header.addEventListener('keydown', function(event) {
+                    if ((event.key === 'Enter' || event.key === ' ') && window.innerWidth <= 767) {
+                        event.preventDefault();
+                        toggleCard(header);
+                    }
+                });
+            });
+
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                        
+                        // Close mobile menu if open
+                        if (navList && navList.classList.contains('open')) {
+                            navList.classList.remove('open');
+                            hamburger.setAttribute('aria-expanded', 'false');
+                        }
+                    }
+                });
+            });
+
+            // Active navigation state based on scroll position
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            function updateActiveNav() {
+                let current = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (window.pageYOffset >= (sectionTop - 200)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+                
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+            
+            window.addEventListener('scroll', updateActiveNav);
+            updateActiveNav(); // Call once on load
+
+            // Scroll-triggered animations
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, observerOptions);
+
+            // Observe all animation elements
+            const animationElements = document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right, .scale-in');
+            animationElements.forEach((el) => observer.observe(el));
+
+            // Continuous testimonials carousel with Swiper
+            const testimonialsSwiper = document.querySelector('.testimonials-swiper');
+            const pausePlayBtn = document.querySelector('.carousel-pause-play-btn');
+            
+            if (testimonialsSwiper) {
+                // Check for reduced motion preference
+                const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                
+                // Calculate speed based on screen size for smooth linear motion
+                // Target: 28-34px/s desktop, 22-26px/s mobile
+                function calculateSwiperSpeed() {
+                    const isMobile = window.innerWidth <= 767;
+                    const targetSpeed = isMobile ? 24 : 31; // px per second
+                    // Swiper speed = duration for full track width
+                    // Approximate card width: 350px mobile, 400px desktop
+                    const cardWidth = isMobile ? 350 : 400;
+                    const spaceBetween = isMobile ? 12 : 16;
+                    const effectiveCardWidth = cardWidth + spaceBetween;
+                    // Speed in ms for one card width
+                    return Math.round((effectiveCardWidth / targetSpeed) * 1000);
+                }
+                
+                let swiperInstance = null;
+                let isPlaying = !prefersReducedMotion;
+                
+                // Initialize Swiper
+                function initSwiper() {
+                    if (swiperInstance) {
+                        swiperInstance.destroy(true, true);
+                    }
+                    
+                    const isMobile = window.innerWidth <= 767;
+                    const spaceBetween = isMobile ? 12 : 16;
+                    
+                    swiperInstance = new Swiper('.testimonials-swiper', {
+                        // Core settings
+                        loop: true,
+                        slidesPerView: 'auto',
+                        spaceBetween: spaceBetween,
+                        centeredSlides: false,
+                        
+                        // Free mode for continuous scrolling
+                        freeMode: {
+                            enabled: true,
+                            momentum: false, // Disable momentum/bounce
+                            sticky: false
+                        },
+                        
+                        // Autoplay configuration
+                        autoplay: isPlaying ? {
+                            delay: 0, // Continuous, no pause between slides
+                            disableOnInteraction: false,
+                            pauseOnMouseEnter: true,
+                            reverseDirection: false
+                        } : false,
+                        
+                        // Speed for smooth linear motion
+                        speed: calculateSwiperSpeed(),
+                        
+                        // Touch/drag settings
+                        allowTouchMove: true,
+                        touchRatio: 1,
+                        touchAngle: 45,
+                        grabCursor: true,
+                        
+                        // Accessibility
+                        a11y: {
+                            enabled: true
+                        },
+                        
+                        // Events
+                        on: {
+                            touchStart: function() {
+                                // Pause autoplay on interaction
+                                if (this.autoplay) {
+                                    this.autoplay.stop();
+                                }
+                            },
+                            touchEnd: function() {
+                                // Resume autoplay after interaction if not manually paused
+                                if (isPlaying && this.autoplay) {
+                                    setTimeout(() => {
+                                        this.autoplay.start();
+                                    }, 1000); // 1 second delay before resuming
+                                }
+                            }
+                        }
+                    });
+                }
+                
+                // Pause/Play button functionality
+                function updatePausePlayButton() {
+                    const playIcon = pausePlayBtn.querySelector('.play-icon');
+                    const pauseIcon = pausePlayBtn.querySelector('.pause-icon');
+                    const srText = pausePlayBtn.querySelector('.sr-only');
+                    
+                    if (isPlaying) {
+                        playIcon.style.display = 'none';
+                        pauseIcon.style.display = 'block';
+                        pausePlayBtn.setAttribute('aria-label', 'Pause testimonials autoplay');
+                        pausePlayBtn.setAttribute('title', 'Pause autoplay');
+                        pausePlayBtn.setAttribute('aria-pressed', 'false');
+                        srText.textContent = 'Pause';
+                    } else {
+                        playIcon.style.display = 'block';
+                        pauseIcon.style.display = 'none';
+                        pausePlayBtn.setAttribute('aria-label', 'Play testimonials autoplay');
+                        pausePlayBtn.setAttribute('title', 'Play autoplay');
+                        pausePlayBtn.setAttribute('aria-pressed', 'true');
+                        srText.textContent = 'Play';
+                    }
+                }
+                
+                if (pausePlayBtn) {
+                    pausePlayBtn.addEventListener('click', function() {
+                        isPlaying = !isPlaying;
+                        
+                        if (swiperInstance) {
+                            if (isPlaying) {
+                                // Re-initialize with autoplay
+                                initSwiper();
+                            } else {
+                                // Stop autoplay
+                                if (swiperInstance.autoplay) {
+                                    swiperInstance.autoplay.stop();
+                                }
+                            }
+                        }
+                        
+                        updatePausePlayButton();
+                    });
+                }
+                
+                // Handle window resize
+                let resizeTimeout;
+                window.addEventListener('resize', function() {
+                    clearTimeout(resizeTimeout);
+                    resizeTimeout = setTimeout(() => {
+                        initSwiper();
+                        updatePausePlayButton();
+                    }, 250);
+                });
+                
+                // Initialize carousel
+                initSwiper();
+                updatePausePlayButton();
+                
+                // Hide pause/play button if reduced motion is preferred
+                if (prefersReducedMotion && pausePlayBtn) {
+                    pausePlayBtn.style.display = 'none';
+                }
+            }
+
+            // Contact form functionality with deferred error styling
+            const contactForm = document.getElementById('contact-form');
+            const successMessage = document.getElementById('success-message');
+            
+            if (contactForm) {
+                // Field validation function
+                function validateField(field) {
+                    const errorSpan = document.getElementById(field.getAttribute('aria-describedby'));
+                    let isValid = true;
+                    let message = '';
+                    
+                    // Required field validation
+                    if (field.hasAttribute('required') && !field.value.trim()) {
+                        isValid = false;
+                        message = `${field.labels[0].textContent.replace(' *', '')} is required.`;
+                    }
+                    
+                    // Email validation
+                    if (field.type === 'email' && field.value.trim()) {
+                        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                        if (!emailRegex.test(field.value.trim())) {
+                            isValid = false;
+                            message = 'Please enter a valid email address.';
+                        }
+                    }
+                    
+                    // Checkbox validation
+                    if (field.type === 'checkbox' && field.hasAttribute('required') && !field.checked) {
+                        isValid = false;
+                        message = 'You must consent to being contacted.';
+                    }
+                    
+                    // Update field state
+                    if (isValid) {
+                        field.classList.remove('invalid');
+                        field.setAttribute('aria-invalid', 'false');
+                        if (errorSpan) {
+                            errorSpan.textContent = '';
+                        }
+                    } else {
+                        field.classList.add('invalid');
+                        field.setAttribute('aria-invalid', 'true');
+                        if (errorSpan) {
+                            errorSpan.textContent = message;
+                        }
+                    }
+                    
+                    return isValid;
+                }
+                
+                // Setup field event listeners for deferred error styling
+                const fields = contactForm.querySelectorAll('.form-field, .form-checkbox');
+                fields.forEach(field => {
+                    // Add 'touched' class when field is blurred
+                    field.addEventListener('blur', () => {
+                        field.classList.add('touched');
+                        validateField(field);
+                    });
+                    
+                    // Clear errors when field becomes valid
+                    field.addEventListener('input', () => {
+                        if (field.classList.contains('touched') || contactForm.classList.contains('was-submitted')) {
+                            // Small delay to allow user to finish typing
+                            clearTimeout(field.validationTimeout);
+                            field.validationTimeout = setTimeout(() => {
+                                validateField(field);
+                            }, 300);
+                        }
+                    });
+                    
+                    // For checkboxes, also listen to change events
+                    if (field.type === 'checkbox') {
+                        field.addEventListener('change', () => {
+                            if (field.classList.contains('touched') || contactForm.classList.contains('was-submitted')) {
+                                validateField(field);
+                            }
+                        });
+                    }
+                });
+                
+                // Form submission
+                contactForm.addEventListener('submit', async function(e) {
+                    e.preventDefault();
+                    
+                    // Add 'was-submitted' class to show errors on all invalid fields
+                    contactForm.classList.add('was-submitted');
+                    
+                    // Validate all fields
+                    let isFormValid = true;
+                    const allFields = contactForm.querySelectorAll('.form-field, .form-checkbox');
+                    
+                    allFields.forEach(field => {
+                        const fieldValid = validateField(field);
+                        if (!fieldValid) {
+                            isFormValid = false;
+                        }
+                    });
+                    
+                    if (!isFormValid) {
+                        // Focus first error field
+                        const firstError = contactForm.querySelector('.invalid');
+                        if (firstError) {
+                            firstError.focus();
+                        }
+                        return;
+                    }
+                    
+                    // Show loading state
+                    const submitBtn = contactForm.querySelector('.submit-btn');
+                    const btnText = submitBtn.querySelector('.btn-text');
+                    const btnLoading = submitBtn.querySelector('.btn-loading');
+                    
+                    submitBtn.disabled = true;
+                    btnText.style.display = 'none';
+                    btnLoading.style.display = 'inline';
+                    
+                    try {
+                        // Submit to Netlify
+                        const formData = new FormData(contactForm);
+                        
+                        const response = await fetch('/', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                            body: new URLSearchParams(formData).toString()
+                        });
+                        
+                        if (response.ok) {
+                            // Show success message
+                            contactForm.style.display = 'none';
+                            successMessage.style.display = 'block';
+                            
+                            // Scroll to success message
+                            successMessage.scrollIntoView({ 
+                                behavior: 'smooth', 
+                                block: 'center' 
+                            });
+                        } else {
+                            throw new Error('Network response was not ok');
+                        }
+                        
+                    } catch (error) {
+                        console.error('Form submission error:', error);
+                        alert('Sorry, there was an error sending your message. Please try again or contact us directly.');
+                        
+                        // Reset button state
+                        submitBtn.disabled = false;
+                        btnText.style.display = 'inline';
+                        btnLoading.style.display = 'none';
+                    }
+                });
+            }
+            
+            // Reset form function (global for onclick handler)
+            window.resetForm = function() {
+                const contactForm = document.getElementById('contact-form');
+                const successMessage = document.getElementById('success-message');
+                
+                if (contactForm && successMessage) {
+                    // Reset form
+                    contactForm.reset();
+                    
+                    // Clear form submission class
+                    contactForm.classList.remove('was-submitted');
+                    
+                    // Clear any error messages
+                    const errorMessages = contactForm.querySelectorAll('.form-field__error');
+                    errorMessages.forEach(msg => msg.textContent = '');
+                    
+                    // Clear invalid states and touched classes
+                    const allFields = contactForm.querySelectorAll('.form-field, .form-checkbox');
+                    allFields.forEach(field => {
+                        field.classList.remove('invalid', 'touched');
+                        field.setAttribute('aria-invalid', 'false');
+                    });
+                    
+                    // Reset button state
+                    const submitBtn = contactForm.querySelector('.submit-btn');
+                    const btnText = submitBtn.querySelector('.btn-text');
+                    const btnLoading = submitBtn.querySelector('.btn-loading');
+                    
+                    submitBtn.disabled = false;
+                    btnText.style.display = 'inline';
+                    btnLoading.style.display = 'none';
+                    
+                    // Show form, hide success
+                    contactForm.style.display = 'block';
+                    successMessage.style.display = 'none';
+                    
+                    // Focus first field
+                    const firstField = contactForm.querySelector('input[name="name"]');
+                    if (firstField) {
+                        firstField.focus();
+                    }
+                }
+            };
+
+            // FAQ Accordion functionality
+            const accordionHeaders = document.querySelectorAll('.accordion-header');
+            
+            accordionHeaders.forEach(header => {
+                header.addEventListener('click', function() {
+                    const accordionItem = header.parentElement;
+                    const isExpanded = header.getAttribute('aria-expanded') === 'true';
+                    const accordionContent = document.getElementById(header.getAttribute('aria-controls'));
+                    const accordionIcon = header.querySelector('.accordion-icon');
+                    
+                    // Close all other accordion items (only one open at a time)
+                    accordionHeaders.forEach(otherHeader => {
+                        if (otherHeader !== header) {
+                            const otherItem = otherHeader.parentElement;
+                            const otherContent = document.getElementById(otherHeader.getAttribute('aria-controls'));
+                            const otherIcon = otherHeader.querySelector('.accordion-icon');
+                            
+                            otherHeader.setAttribute('aria-expanded', 'false');
+                            otherItem.classList.remove('expanded');
+                            otherIcon.textContent = '+';
+                        }
+                    });
+                    
+                    // Toggle current accordion item
+                    if (isExpanded) {
+                        header.setAttribute('aria-expanded', 'false');
+                        accordionItem.classList.remove('expanded');
+                        accordionIcon.textContent = '+';
+                    } else {
+                        header.setAttribute('aria-expanded', 'true');
+                        accordionItem.classList.add('expanded');
+                        accordionIcon.textContent = '−';
+                    }
+                });
+                
+                // Keyboard support
+                header.addEventListener('keydown', function(event) {
+                    if (event.key === 'Enter' || event.key === ' ') {
+                        event.preventDefault();
+                        header.click();
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
